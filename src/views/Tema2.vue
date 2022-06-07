@@ -189,26 +189,26 @@
            PasosA.color-acento-contenido.mb-5(tipo="l")
             .row.justify-content-center.align-items-center
               .col-12.col-lg-8
-                p.mb-0 Identifique el objetivo del proceso, la finalidad del objetivo.
+                p.mb-lg-0.mb-4 Identifique el objetivo del proceso, la finalidad del objetivo.
               .col-6.col-lg-2.d-flex.justify-content-center
                 img(src='@/assets/curso/tema2/img10.svg')    
               .col-lg-2
             .row.justify-content-center.align-items-center
               .col-lg-2
               .col-6.col-lg-2.d-flex.justify-content-center
-                img(src='@/assets/curso/tema2/img11.svg')    
+                img.mb-lg-0.mb-4(src='@/assets/curso/tema2/img11.svg')    
               .col-12.col-lg-8
                 p.mb-0 Identifique las variables a medir (cualitativas o cuantitativas).              
             .row.justify-content-center.align-items-center
               .col-12.col-lg-8
-                p.mb-0(style="text-align: left") Identifique las fuentes de las variables (cualitativas o cuantitativas).
+                p.mb-lg-0.mb-4(style="text-align: left") Identifique las fuentes de las variables (cualitativas o cuantitativas).
               .col-6.col-lg-2.d-flex.justify-content-center
                 img(src='@/assets/curso/tema2/img12.svg')    
               .col-lg-2
             .row.justify-content-center.align-items-center
               .col-lg-2
               .col-6.col-lg-2.d-flex.justify-content-center
-                img(src='@/assets/curso/tema2/img13.svg')    
+                img.mb-lg-0.mb-4(src='@/assets/curso/tema2/img13.svg')    
               .col-12.col-lg-8
                 p.mb-0(style="text-align: left") Defina la fórmula del indicador, realice ejercicios prácticos previamente (variable medida/variable esperada).
             .row.justify-content-center.align-items-center
@@ -216,31 +216,31 @@
                 p.mb-2 Clasifique el indicador:
                 p.mb-2 <b>Eficacia:</b>  mide los resultados alcanzados frente a los resultados esperados.
                 p.mb-2 <b>Eficiencia:</b> mide los recursos utilizados frente a los resultados obtenidos o también mide la    relación entre los resultados alcanzados frente a los recursos disponibles. 
-                p.mb-0 <b>Efectividad:</b> miden el impacto del indicador frente al cumplimiento del objetivo o también se puede ver como la combinación entre la eficiencia y la eficacia.
+                p.mb-lg-0.mb-4 <b>Efectividad:</b> miden el impacto del indicador frente al cumplimiento del objetivo o también se puede ver como la combinación entre la eficiencia y la eficacia.
               .col-6.col-lg-2.d-flex.justify-content-center
                 img(src='@/assets/curso/tema2/img14.svg')    
               .col-lg-1
             .row.justify-content-center.align-items-center
               .col-lg-2
               .col-6.col-lg-2.d-flex.justify-content-center
-                img(src='@/assets/curso/tema2/img15.svg')    
+                img.mb-lg-0.mb-4(src='@/assets/curso/tema2/img15.svg')    
               .col-12.col-lg-8
                 p.mb-0(style="text-align: left") Fije una meta – se pueden dar espacios para la medición de la línea base.
             .row.justify-content-center.align-items-center
               .col-12.col-lg-8
-                p.mb-0 Determine la periodicidad de la medición (semana, quincenal, mensual, semestral o anual).
+                p.mb-lg-0.mb-4 Determine la periodicidad de la medición (semana, quincenal, mensual, semestral o anual).
               .col-6.col-lg-2.d-flex.justify-content-center
                 img(src='@/assets/curso/tema2/img16.svg')    
               .col-lg-2
             .row.justify-content-center.align-items-center
               .col-lg-2
               .col-6.col-lg-2.d-flex.justify-content-center
-                img(src='@/assets/curso/tema2/img17.svg')    
+                img.mb-lg-0.mb-4(src='@/assets/curso/tema2/img17.svg')    
               .col-12.col-lg-8
                 p.mb-0(style="text-align: left") Delimite los rangos de evaluación ( por ejemplo, de 0 a 60 deficiente, de 60,1 a 75 aceptable, de 75,1 a 80 bueno, de 85,1 a 100, de 100,1 en adelante es sobresaliente).  
             .row.justify-content-center.align-items-center
               .col-12.col-lg-8
-                p.mb-0 Identifique y asigne responsables del indicador y de sus variables. 
+                p.mb-lg-0.mb-4 Identifique y asigne responsables del indicador y de sus variables. 
               .col-6.col-lg-2.d-flex.justify-content-center
                 img(src='@/assets/curso/tema2/img18.svg')    
               .col-lg-2
@@ -363,7 +363,7 @@ export default {
       height: 100%
       margin: 0 -5rem
       background-image: url("../assets/curso/tema2/img08.svg")
-      // background-size: contain
+      background-size: cover
       background-repeat: no-repeat
 
   .tabs-a__tab

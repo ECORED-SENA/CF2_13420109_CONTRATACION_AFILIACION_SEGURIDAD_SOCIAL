@@ -16,7 +16,7 @@
       .bloque-texto-g__texto.p-5
         p.mb-0 El Estado colombiano por medio del Archivo General de la Nación ha definido directrices para gestionar los soportes documentales de los empleados en el país, partiendo de la contratación y vinculación de los trabajadores, su desarrollo laboral y su retiro, independientemente del mecanismo que se utilice, ya sea por finalización del contrato, retiro voluntario o retiro por situación administrativa.
     
-    figcaption <b>Nota.</b> Archivo General de la Nación (Colombia)
+    figcaption.mt-3 <b>Nota.</b> Archivo General de la Nación (Colombia)
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -158,9 +158,10 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-12.col-lg-8(style="border-radius: 12px; background-color: #0C0A3E")
         .row.justify-content-center.align-items-center
-          .col-3.col-lg-1.p-3
-            img(src='@/assets/curso/tema1/img07.svg')    
-          .col-12.col-lg-8.p-3
+          .col-3.col-lg-2.p-3.px-4
+            div.px-2
+              img(src='@/assets/curso/tema1/img07.svg')    
+          .col-12.col-lg-7.p-3
             pmb-0.text-white Para consultar el “concepto técnico sobre tiempos de retención documental” del Archivo General de la Nación ver el documento completo en el siguiente enlace: 
           .col-12.col-lg-3.p-3.d-flex.justify-content-center
             a.boton.me-3.indicador__container(
@@ -179,8 +180,8 @@
     p.mb-5 <b>Con el fin de facilitar el  acceso a la información normada por los diferentes organismos del Estado, se presenta el compendio jurídico que regula las disposiciones en cuanto a gestionar documentalmente la historia laboral mediante el  siguiente normograma:</b>
 
     .tarjeta.tarjeta--azul.p-lg-5.p-3.mb-5(style="background-color: #F3F9FF")
-      h3.mb-1.text-center Normograma de la Gestión documental de la 
-      h3.b-5.text-center historia laboral
+      h3.mb-1.text-center(style="color: #16697A") Normograma de la Gestión documental de la 
+      h3.b-5.text-center(style="color: #16697A") historia laboral
 
       LineaTiempoC.color-acento-botones(text-small data-aos="fade-right")
         .row.justify-content-center.py-4(titulo="1991")
@@ -242,10 +243,10 @@
     .tabla-b.color-primario.mb-5(data-aos="fade-right")            
       table        
         tr.tabla-b__header
-          th No
-          th Año
-          th(colspan=4) Disposición
-          th(colspan=2) Documentos
+          th(style="font-size: 18px") No
+          th(style="font-size: 18px") Año
+          th(style="font-size: 18px" colspan=4) Disposición
+          th(style="font-size: 18px" colspan=2) Documentos
         tr
           td 1
           td 2001
@@ -384,7 +385,7 @@
             .tarjeta-flip__img.p-3.p-lg-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/img13.svg')})`}")
               img.mb-4(src='@/assets/curso/tema1/img15.svg' style="width:79px")
               p.mb-0.text-white(style="font-size: 25px") <b>Clasificación de la documentación</b>
-            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`, 'background-size':'cover'}")
               p.my-5 Organice los documentos entregados por el empleado y las tablas de retención documental en la empresa pública o privada.
       .col-12.col-lg-4.d-flex.mb-lg-0.mb-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -393,7 +394,7 @@
             .tarjeta-flip__img.p-3.p-lg-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/img13.svg')})`}")
               img.mb-4(src='@/assets/curso/tema1/img16.svg' style="width:79px")
               p.mb-0.text-white(style="font-size: 25px") <b>Organización de la documentación</b>
-            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`, 'background-size':'cover'}")
               p.my-5 Establezca una secuencia natural, cronológica o alfabética, grupos definidos de la clasificación y categorías de los mismos. Es importante que de acuerdo con los términos de conservación de archivos que corresponda, se puedan adelantar métodos de expurgo y depuración documental, con el fin de eliminar documentos innecesarios y que generen una duplicidad.
       .col-12.col-lg-4.d-flex
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -402,7 +403,7 @@
             .tarjeta-flip__img.p-3.p-lg-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/img13.svg')})`}")
               img.mb-4(src='@/assets/curso/tema1/img17.svg' style="width:79px")
               p.mb-0.text-white(style="font-size: 25px") <b>Preparación física de la historia laboral o contrato</b>
-            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`, 'background-size':'cover'}")
               p.my-5 Organice los documentos, estos  deben quedar alineados en la zona de arriba  de cada página a  tamaño oficio, independiente si este es de tamaño carta, verificando que quede libre de material abrasivo, sin ganchos de cosedoras, o clips y demás elementos metálicos, evitando con esto, el deterioro físico y biológico de la documentación.  
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -413,7 +414,7 @@
             .tarjeta-flip__img.p-3.p-lg-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/img13.svg')})`}")
               img.mb-4(src='@/assets/curso/tema1/img18.svg' style="width:79px")
               p.mb-0.text-white(style="font-size: 25px") <b>Foliación </b>
-            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`, 'background-size':'cover'}")
               p.my-5 Emita un número consecutivo desde 1 hasta el folio que determine el protocolo de gestión documental de la empresa, sin que este supere los 250 folios; esta numeración debe registrarse en el margen superior derecho de cada documento, independiente de la orientación (horizontal o vertical). 
       .col-12.col-lg-4.d-flex.mb-lg-0.mb-3
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -422,7 +423,7 @@
             .tarjeta-flip__img.p-3.p-lg-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/img13.svg')})`}")
               img.mb-4(src='@/assets/curso/tema1/img19.svg' style="width:79px")
               p.mb-0.text-white(style="font-size: 25px") <b>Ubicación física de las historias laborales o contratos</b>
-            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`, 'background-size':'cover'}")
               p.my-5 Ordene los documentos bajo un sistema de consecutivos al interior de cada caja y expediente; y para la ubicación en estantería, la organización de cajas va de la parte superior del estante, de izquierda a derecha seguidamente.
       .col-12.col-lg-4.d-flex
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -431,7 +432,7 @@
             .tarjeta-flip__img.p-3.p-lg-5(:style="{'background-image': `url(${require('@/assets/curso/tema1/img13.svg')})`}")
               img.mb-4(src='@/assets/curso/tema1/img20.svg' style="width:79px")
               p.mb-0.text-white(style="font-size: 25px") <b>Custodia, consulta y copia de documentos de las historias laborales o contractuales</b>
-            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center(:style="{'background-image': `url(${require('@/assets/curso/tema1/img14.svg')})`, 'background-size':'cover'}")
               p.my-5 Valide los parámetros de gestión documental de la empresa. Las áreas responsables de personal o de contratación, de acuerdo con la etapa en el ciclo de gestión del talento humano, serán inicialmente las responsables de la custodia de estos tipos documentales, bajo parámetros de seguridad que restrinja del ingreso al personal no autorizado, debiéndose verificar el protocolo para el acceso exclusivo a estos tipos documentales.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -471,8 +472,8 @@
         .tabla-b.color-primario.mb-5(data-aos="fade-right")            
           table        
             tr.tabla-b__header
-              th No              
-              th(colspan=5) Documento                         
+              th(style="font-size:18px") No              
+              th(style="font-size:18px" colspan=5) Documento                         
             tr
               td.text-center 1
               td(colspan=5) Acto administrativo del nombramiento o contrato de trabajo. 
