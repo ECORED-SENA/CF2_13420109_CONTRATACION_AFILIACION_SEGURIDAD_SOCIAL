@@ -55,8 +55,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-12.p-0
         figure.mb-5(data-aos="fade-left")
-          .video      
-            iframe(width="1280" height="720" src="https://www.youtube.com/embed/ie4xZxgBJ6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .video                
+            iframe(width="788" height="443" src="https://www.youtube.com/embed/2zSZepWU6UE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
         .div(style="border-radius: 12px; background-color: #0C0A3E")
           .row.justify-content-center.align-items-center.px-4

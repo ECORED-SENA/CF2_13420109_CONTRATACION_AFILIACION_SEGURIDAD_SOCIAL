@@ -44,8 +44,8 @@
     .row.align-items-center.justify-content-center(data-aos="fade-left")
       .col-12.col-lg-10.px-0
         figure(data-aos="fade-left")
-          .video      
-            iframe(width="1280" height="720" src="https://www.youtube.com/embed/ie4xZxgBJ6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .video          
+            iframe(width="1280" height="720" src="https://www.youtube.com/embed/b5nt7avwWnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     Separador
 
@@ -223,7 +223,8 @@
         .row.justify-content-center.py-4(titulo="2015")
           .col-12.col-lg-11.p-3.p-lg-0 
             p.mb-4 <b>Decreto 103 de la Presidencia de la República del año 2015</b> "Por el cual se reglamenta parcialmente la Ley 1712 de 2014 y se dictan otras disposiciones - Ley 1712 de 2014 de Transparencia y del derecho de acceso a la información pública nacional".
-            p.mb-0 <b>Decreto 1072 de 2015 del Ministerio de Trabajo</b> "Por medio  del cual se  expide  el Decreto  Único  Reglamentario  del Sector  Trabajo"                  
+            p.mb-4 <b>Decreto 1072 de 2015 del Ministerio de Trabajo</b> "Por medio  del cual se  expide  el Decreto  Único  Reglamentario  del Sector  Trabajo"                  
+            p.mb-0 <b>Acuerdo 003 de 2015 expedido por el consejo Directivo del Archivo General de la Nación</b> "Por el cual se establecen lineamientos generales para las entidades del Estado en cuanto a la gestión de documentos electrónicos generados como resultado del uso de medios electrónicos de conformidad con lo establecido en el Capítulo IV de la Ley 1437 de 2011, se reglamenta el Artículo 21 de la Ley 594 de 2000 y el Capítulo IV del Decreto 2609 de 2012"                  
 
     div.d-flex.align-items-center.mb-5
       img(style="width:26px; display: inline" src='@/assets/curso/tema1/img08.svg')            

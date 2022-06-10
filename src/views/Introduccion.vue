@@ -23,8 +23,8 @@
     .row.justify-content-center.align-items-center
       .col-12.col-lg-10.p-0
         figure(data-aos="fade-left")
-          .video      
-            iframe(width="1280" height="720" src="https://www.youtube.com/embed/ie4xZxgBJ6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          .video                
+            iframe(width="1280" height="720" src="https://www.youtube.com/embed/_nGXU3M48Ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
