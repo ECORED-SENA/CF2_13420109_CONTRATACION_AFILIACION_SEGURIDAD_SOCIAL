@@ -31,7 +31,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Aplicación del derecho de habeas data en el proceso de contratación y administración documental',
+              'Aplicación del derecho de <em>habeas data</em> en el proceso de contratación y administración documental',
             hash: 't_1_1',
           },
           {
@@ -133,13 +133,13 @@ export default {
     },
     {
       referencia:
-        'Archivo General de la Nación. (2015). Concepto técnico  sobre tiempos de retención documental AGN. AGN.',
+        'Archivo General de la Nación. (2015). Concepto técnico  sobre tiempos de retención documental AGN.',
       link:
         'https://www.archivogeneral.gov.co/sites/default/files/conceptostecnicos/2015/SUBGPD/Radicado_2-2015-05813.pdf#:~:text=En%20cuanto%20al%20tiempo%20de,los%20derechos%20pensionales%20y%20reclamaciones',
     },
     {
       referencia:
-        'Decreto 1072 de 2015, Artículo 2.2.4.6.13. [Ministerio del Trabajo]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Versión actualizada Abril15 de 2016. ',
+        'Decreto 1072 de 2015, Artículo 2.2.4.6.13. [Ministerio del Trabajo]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Versión actualizada Abril 15 de 2016. ',
       link:
         'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
     },
@@ -162,14 +162,14 @@ export default {
     },
     {
       referencia:
-        'Superintendencia de Industria y Comercio de Colombia. (2022). Argumentos y concepto de aplicación del derecho de habeas data. SIC. ',
+        'Superintendencia de Industria y Comercio de Colombia. (2022). Argumentos y concepto de aplicación del derecho de <em>habeas data</em>. SIC. ',
       link: 'https://www.sic.gov.co/manejo-de-informacion-personal',
     },
   ],
   glosario: [
     {
       termino: 'AGN',
-      significado: 'Archivo General de la Nación',
+      significado: ' Archivo General de la Nación',
     },
     {
       termino: 'Análisis de causa',
@@ -182,7 +182,7 @@ export default {
         'Elementos determinantes para el análisis CAC (Calidad de la información, Aplicación de técnicas y Comunicación correcta de resultados).',
     },
     {
-      termino: 'Ciclo PHVA o Ciclo de Edward Deming',
+      termino: 'Ciclo PHVA o Ciclo de Edwards Deming',
       significado:
         'Definición de la estructura de tareas del planear, hacer, verificar, actuar.',
     },
@@ -198,7 +198,7 @@ export default {
         'Herramientas de mejora continua "No conformidades y acciones correctivas"',
       referencia:
         'Nueva ISO 9001:2015. 10 técnicas de análisis de causa raíz de los desperdicios de la calidad para eliminarlos. Nueva ISO 9001:2015.',
-      tipo: 'Articulo web',
+      tipo: 'Artículo web',
       link:
         'https://www.nueva-iso-9001-2015.com/2020/05/10-tecnicas-de-analisis-de-causa-raiz-de-los-desperdicios-de-la-calidad-para-eliminarlos/',
     },
