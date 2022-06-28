@@ -73,7 +73,7 @@
                 span Ir al Sitio web
                 i.fas.fa-link                
 
-    p.mb-5 <b>Después de identificar las causas, es necesario determinar acciones concretas que se vayan a desarrollar, un ejemplo es el método diseñado por Edward Deming, conocido como el ciclo PHVA (planear, hacer verificar, actuar):    </b>
+    p.mb-5 <b>Después de identificar las causas, es necesario determinar acciones concretas que se vayan a desarrollar, un ejemplo es el método diseñado por Edward Deming, conocido como el ciclo PHVA (planear, hacer, verificar, actuar):    </b>
     
     .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-6
