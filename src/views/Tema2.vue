@@ -73,7 +73,7 @@
                 span Ir al Sitio web
                 i.fas.fa-link                
 
-    p.mb-5 <b>Después de identificar las causas, es necesario determinar acciones concretas que se vayan a desarrollar, un ejemplo es el método diseñado por Edward Deming, conocido como el ciclo PHVA (planear, hacer, verificar, actuar):    </b>
+    p.mb-5 <b>Después de identificar las causas, es necesario determinar acciones concretas que se vayan a desarrollar, un ejemplo es el método diseñado por Edwards Deming, conocido como el ciclo PHVA (planear, hacer, verificar, actuar):    </b>
     
     .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-12.col-lg-6
@@ -84,7 +84,7 @@
                 img(src='@/assets/curso/tema2/img02.svg')                            
 
             .tarjeta.color-primario.p-3(x="8.2%" y="24%" numero=" ")
-              p.mb-0 Con el actuar, es donde de manera particular se evalúa la eficiencia de la actividades de la acción correctiva implementada y se determina el cierre de la acción o el ajuste a la acción correctiva si se requiere.
+              p.mb-0 Con el actuar, es donde de manera particular se evalúa la eficiencia de las actividades de la acción correctiva implementada y se determina el cierre de la acción o el ajuste a la acción correctiva si se requiere.
 
             .tarjeta.color-primario.p-3(x="92.2%" y="24%" numero=" ")
               p.mb-0 Se inicia esta secuencia con la planificación para gradualmente ir corrigiendo y reduciendo los efectos no deseados.
@@ -95,13 +95,13 @@
             .tarjeta.color-primario.p-3(x="92.2%" y="77%" numero=" ")
               p.mb-0 En esta fase se desarrollan actividades que logren irradiar de manera integral la solución de las falencias. La eficacia de estas acciones y los efectos potenciales que tengan sobre el proceso de contratación y vinculación laboral, repercutirán de manera directa en futuras aplicaciones del proceso antes señalado.
         
-          figcaption <b>Nota.</b> Adaptado del ciclo PHVA definido por Edward Deming.
+          figcaption <b>Nota.</b> Adaptado del ciclo PHVA definido por Edwards Deming.
     Separador
 
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Análisis y evaluación del proceso de contratación
 
-    p.mb-5 Además de evaluar el proceso de contratación laboral y la vinculación de un manera correcta, desarrollando mecanismos y técnicas vistas anteriormente, es importante señalar que las entidades o empresas deben contar con mecanismos como son los comités de contratación o de selección de personal, y que los resultados de estos, deben reflejar un análisis de la aprobación o no, para la vinculación del personal, emitiendo informes de evaluación, los cuales entre muchas características deben estar fortalecidos por componentes de análisis como:
+    p.mb-5 Además de evaluar el proceso de contratación laboral y la vinculación de una manera correcta, desarrollando mecanismos y técnicas vistas anteriormente, es importante señalar que las entidades o empresas deben contar con mecanismos como son los comités de contratación o de selección de personal, y que los resultados de estos, deben reflejar un análisis de la aprobación o no, para la vinculación del personal, emitiendo informes de evaluación, los cuales entre muchas características deben estar fortalecidos por componentes de análisis como:
 
     TabsA.color-acento-botones.mb-5(data-aos="fade-right")    
       .tarjeta.tarjeta--gris.p-4(style="background-color: #F3F9FF" titulo="Calidad de la información")
@@ -237,7 +237,7 @@
               .col-6.col-lg-2.d-flex.justify-content-center
                 img.mb-lg-0.mb-4(src='@/assets/curso/tema2/img17.svg')    
               .col-12.col-lg-8
-                p.mb-0(style="text-align: left") Delimite los rangos de evaluación ( por ejemplo, de 0 a 60 deficiente, de 60,1 a 75 aceptable, de 75,1 a 80 bueno, de 85,1 a 100, de 100,1 en adelante es sobresaliente).  
+                p.mb-0(style="text-align: left") Delimite los rangos de evaluación (por ejemplo, de 0 a 60 deficiente, de 60,1 a 75 aceptable, de 75,1 a 80 bueno, de 85,1 a 100, de 100,1 en adelante es sobresaliente).  
             .row.justify-content-center.align-items-center
               .col-12.col-lg-8
                 p.mb-lg-0.mb-4 Identifique y asigne responsables del indicador y de sus variables. 

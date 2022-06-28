@@ -20,7 +20,7 @@
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1  Aplicación del derecho de habeas data en el proceso de contratación y administración documental
+      h2 1.1  Aplicación del derecho de <i>habeas data</i> en el proceso de contratación y administración documental
 
     .cajon-b.color-primario.px-1.py-2.mb-5(data-aos="fade-right")
       p.mb-0 Según la definición de la Corte Constitucional Colombiana en la Ley 1266 de 2008 una persona, bien sea natural o jurídica, tiene derecho a exigir a las entidades o empresas que administren bases de datos, indiferente de su naturaleza, el acceso a los datos de su información y realizar la actualización o rectificación de los datos que se hayan recopilado sobre sí mismo. De igual manera, las posibilidades de su promulgación, publicación o finalización, de consentimiento con los principios para la administración de datos de las personas. 
@@ -30,7 +30,7 @@
         .col-6.col-lg-1
           img.mb-4.mb-lg-0(src="@/assets/curso/tema1/img02.svg")
         .col-12.col-lg-10
-          h4.mb-0 Según lo anterior, el derecho de habeas data tiene una autonomía independiente y lo diferencia de otros derechos con los que está en permanente interacción, como los derechos a la información y a la intimidad. 
+          h4.mb-0 Según lo anterior, el derecho de <i>habeas data</i> tiene una autonomía independiente y lo diferencia de otros derechos con los que está en permanente interacción, como los derechos a la información y a la intimidad. 
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
       .col-12.col-lg-10(style="background-color: #16697A; border-radius: 12px")
@@ -339,7 +339,7 @@
         img(src='@/assets/curso/tema1/img11.svg')        
         .tarjeta.color-primario.p-3.px-lg-5
             h4 Historia laboral Contrato
-            p.mb-0 Tipo de documentos que contienen información del ciclo de gestión del talento humano. en cuanto a la vinculación y trayectoria laboral de los empleados.
+            p.mb-0 Tipo de documentos que contienen información del ciclo de gestión del talento humano en cuanto a la vinculación y trayectoria laboral de los empleados.
       .tarjeta-avatar
         img(src='@/assets/curso/tema1/img11.svg')        
         .tarjeta.color-primario.p-3.px-lg-5
@@ -548,7 +548,7 @@
               | <b>La aprobación o no de la hoja de vida.</b>
             li 
               i.lista-ul__vineta
-              | <b>Y todos los demás  ítems que consideré necesario incluir en los diferentes mecanismos de control que se manejan por parte del contratante o vinculante. </b>
+              | <b>Y todos los demás  ítems que considere necesario incluir en los diferentes mecanismos de control que se manejan por parte del contratante o vinculante. </b>
         .col-lg-1
         .col-6.col-lg-3
           img.mb-0(src='@/assets/curso/tema1/img22.png')                    
